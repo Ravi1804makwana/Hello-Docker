@@ -2,21 +2,36 @@
 
 Create Dockerfile.
 Configure Setup.
-Build Docker iamge
-  docker build -t <pre><your-docker-repo-name></pre>
+Build Docker iamge<br/>
+  `
+  docker build -t <your-docker-repo-name>
+  `
 
-To check list of images in local machine
+To check list of images in local machine<br/>
+  `
   docker image ls
+  `
   
-To run docker image
-  docker run <pre><your-docker-repo-name></pre>
+To run docker image<br/>
+  `
+  docker run <your-docker-repo-name>
+  `
   
 <b>Push Repository in Docker Hub</b>
-
+<br/>
+  `
   docker login
-  docker tag <pre><your-docker-repo-name>:tag <docker-username>/<docker-hub-repo-name>:tag</pre>
-  docker push <pre><docker-username>/<docker-hub-repo-name>:tag</pre>
+  `<br/>
+  `
+  docker tag <your-docker-repo-name>:tag <docker-username>/<docker-hub-repo-name>:tag
+  `
+  <br/>
+  `
+  docker push <docker-username>/<docker-hub-repo-name>:tag
+  `
   
-<b>Pull Docker image from Docker Hub</b>
+<b>Pull Docker image from Docker Hub</b><br/>
 
-  docker pull <pre><docker-username>/<docker-hub-repo-name>:tag</pre>
+  `
+  docker pull <docker-username>/<docker-hub-repo-name>:tag
+  `
