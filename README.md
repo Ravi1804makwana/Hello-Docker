@@ -30,7 +30,7 @@ To run docker image<br/>
   docker push <docker-username>/<docker-hub-repo-name>:tag
   `
   
-<b>Pull Docker image from Docker Hub</b><br/>
+<b>Pull Repository from Docker Hub</b><br/>
 
   `
   docker pull <docker-username>/<docker-hub-repo-name>:tag
